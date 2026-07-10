@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -12,15 +12,39 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--background);
+  color: var(--foreground);
 }
 
 body {
+  min-height: 100%;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Mevcut krem arka planları siyaha çevirir */
+main,
+header {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Mevcut gri ve siyah metinleri beyaza çevirir */
+.text-zinc-500,
+.text-zinc-600,
+.text-\[\#111111\] {
+  color: #ffffff !important;
+}
+
+/* Linklerin rengini metinden almasını sağlar */
+a {
+  color: inherit;
+}
+
+/* Açık renkli çerçeveleri koyu gri yapar */
+.border-zinc-200,
+.border-zinc-300 {
+  border-color: #292929 !important;
 }

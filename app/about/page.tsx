@@ -2,16 +2,16 @@ import Navbar from "../components/Navbar";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#F7F5F2] text-[#111111]">
+    <main className="min-h-screen bg-black text-white">
       <Navbar />
 
       <section className="mx-auto max-w-7xl px-8 py-28">
         <div className="grid gap-12 md:grid-cols-2">
-          <p className="text-xs uppercase tracking-[0.35em] text-zinc-500">
+          <p className="text-xs uppercase tracking-[0.35em] text-zinc-400">
             About
           </p>
 
-          <div className="max-w-2xl space-y-6 text-lg leading-8 text-zinc-600">
+          <div className="max-w-2xl space-y-6 text-lg leading-8 text-zinc-200">
             <p>
               I&apos;m Ömer Aydoğan, a photographer and filmmaker based in
               Turkey.

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="bg-[#F7F5F2]">
+    <header className="bg-black text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-8 py-8">
         <Link
           href="/"
@@ -12,10 +12,21 @@ export default function Navbar() {
         </Link>
 
         <div className="flex gap-10 text-[11px] uppercase tracking-[0.32em]">
-          <Link href="/work">Work</Link>
-          <Link href="/about">About</Link>
-          <Link href="/journal">Journal</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/work" className="transition-opacity hover:opacity-60">
+            Work
+          </Link>
+
+          <Link href="/about" className="transition-opacity hover:opacity-60">
+            About
+          </Link>
+
+          <Link href="/journal" className="transition-opacity hover:opacity-60">
+            Journal
+          </Link>
+
+          <Link href="/contact" className="transition-opacity hover:opacity-60">
+            Contact
+          </Link>
         </div>
       </nav>
     </header>
