@@ -6,16 +6,17 @@ export default function Contact() {
           Contact
         </p>
 
-        <div>
-          <h2 className="text-4xl font-light leading-tight">
-            Let&apos;s create something meaningful.
-          </h2>
+        <div className="space-y-4 text-lg text-zinc-600">
+          <p>
+            If you'd like to collaborate, discuss a project, or simply say
+            hello, I'd love to hear from you.
+          </p>
 
           <a
-            href="mailto:hello@bekbohem.com"
-            className="mt-8 inline-block text-lg text-zinc-600 hover:text-black"
+            href="mailto:info@bekbohem.com"
+            className="inline-block transition-opacity hover:opacity-60"
           >
-            hello@bekbohem.com
+            info@bekbohem.com
           </a>
         </div>
       </div>
