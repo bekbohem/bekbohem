@@ -6,12 +6,12 @@ export default function Contact() {
           Contact
         </p>
 
-        <div className="space-y-3 text-lg text-zinc-600">
+        <div className="space-y-4 text-lg text-zinc-600">
           <a
             href="tel:+905472936426"
             className="block transition-opacity hover:opacity-60"
           >
-            +90 XXX XXX XX XX
+            +90 547 293 64 26
           </a>
 
           <a
