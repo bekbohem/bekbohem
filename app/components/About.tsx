@@ -6,14 +6,21 @@ export default function About() {
           About
         </p>
 
-        <div>
-          <h2 className="text-4xl font-light leading-tight">
-            A quiet visual archive.
-          </h2>
+        <div className="max-w-2xl space-y-6 text-lg leading-8 text-zinc-600">
+          <p>
+            I&apos;m Ömer Aydoğan, a photographer and filmmaker based in
+            Turkey.
+          </p>
 
-          <p className="mt-8 max-w-xl leading-8 text-zinc-600">
-            Bekbohem is a personal space for photography and films shaped by
-            atmosphere, silence and honest observation.
+          <p>
+            Inspired by natural light, quiet moments, and everyday life, I
+            create photographs and films that capture fleeting moments with
+            atmosphere, precision, and emotion.
+          </p>
+
+          <p>
+            My goal is simple: to create honest, timeless visuals that allow
+            people to pause, feel, and remember.
           </p>
         </div>
       </div>
